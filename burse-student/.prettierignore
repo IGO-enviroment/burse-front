@@ -1,0 +1,11 @@
+# Artifacts:
+build
+coverage
+
+# Configs
+.helm
+*.yaml
+*.yml
+
+# Other
+*.md
