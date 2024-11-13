@@ -1,13 +1,10 @@
 import { createTheme } from '@mui/material';
+import { PaletteOptions } from './theme/pallet-options';
+import { TypographyOptions } from './theme/typography-options';
+import { Components } from './theme/components';
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#0066FF',
-    },
-    secondary: {
-      main: '',
-    },
-    error: {},
-  },
+export const theme = createTheme({
+  palette: PaletteOptions,
+  typography: TypographyOptions,
+  components: Components,
 });
